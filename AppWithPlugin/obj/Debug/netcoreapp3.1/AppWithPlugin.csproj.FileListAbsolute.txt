@@ -1,0 +1,11 @@
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\bin\Debug\netcoreapp3.1\AppWithPlugin.exe
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\bin\Debug\netcoreapp3.1\AppWithPlugin.deps.json
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\bin\Debug\netcoreapp3.1\AppWithPlugin.runtimeconfig.json
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\bin\Debug\netcoreapp3.1\AppWithPlugin.runtimeconfig.dev.json
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\bin\Debug\netcoreapp3.1\AppWithPlugin.dll
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\bin\Debug\netcoreapp3.1\AppWithPlugin.pdb
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.csprojAssemblyReference.cache
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.AssemblyInfoInputs.cache
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.AssemblyInfo.cs
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.dll
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.pdb
