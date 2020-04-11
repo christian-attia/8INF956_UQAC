@@ -9,3 +9,6 @@ D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcor
 D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.AssemblyInfo.cs
 D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.dll
 D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.pdb
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\bin\Debug\netcoreapp3.1\PluginBase.dll
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\bin\Debug\netcoreapp3.1\PluginBase.pdb
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\AppWithPlugin\obj\Debug\netcoreapp3.1\AppWithPlugin.csproj.CopyComplete

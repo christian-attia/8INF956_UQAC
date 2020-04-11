@@ -1,0 +1,8 @@
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\bin\Debug\netstandard2.0\PluginBase.deps.json
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\bin\Debug\netstandard2.0\PluginBase.dll
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\bin\Debug\netstandard2.0\PluginBase.pdb
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netstandard2.0\PluginBase.csprojAssemblyReference.cache
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netstandard2.0\PluginBase.AssemblyInfoInputs.cache
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netstandard2.0\PluginBase.AssemblyInfo.cs
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netstandard2.0\PluginBase.dll
+D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netstandard2.0\PluginBase.pdb
