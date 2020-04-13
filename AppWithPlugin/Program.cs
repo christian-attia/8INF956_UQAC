@@ -15,14 +15,14 @@ namespace AppWithPlugin
             {
                 if (args.Length == 1 && args[0] == "/d")
                 {
-                    Console.WriteLine("Waiting for any key...");
+                    Console.WriteLine("Waiting for any key..");
                     Console.ReadLine();
                 }
 
                 string[] pluginPaths = new string[]
-                {
-                    // Paths to plugins to load.
-                };
+                    {
+                        @"HelloPlugin\bin\Debug\netcoreapp3.1\HelloPlugin.dll"
+                    };
 
                 IEnumerable<ICommand> commands = pluginPaths.SelectMany(pluginPath =>
                 {
@@ -52,9 +52,11 @@ namespace AppWithPlugin
                         }
 
                         command.Execute();
+
                         Console.WriteLine();
                     }
                 }
+
             }
             catch (Exception ex)
             {
