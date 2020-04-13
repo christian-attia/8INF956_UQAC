@@ -1,9 +1,0 @@
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\bin\Debug\netcoreapp3.1\PluginBase.deps.json
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\bin\Debug\netcoreapp3.1\PluginBase.dll
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\bin\Debug\netcoreapp3.1\PluginBase.pdb
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netcoreapp3.1\PluginBase.csproj.CoreCompileInputs.cache
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netcoreapp3.1\PluginBase.AssemblyInfoInputs.cache
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netcoreapp3.1\PluginBase.AssemblyInfo.cs
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netcoreapp3.1\PluginBase.dll
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netcoreapp3.1\PluginBase.pdb
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\PluginBase\obj\Debug\netcoreapp3.1\PluginBase.csprojAssemblyReference.cache

@@ -1,9 +1,0 @@
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\bin\Debug\netcoreapp3.1\HelloPlugin.deps.json
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\bin\Debug\netcoreapp3.1\HelloPlugin.dll
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\bin\Debug\netcoreapp3.1\HelloPlugin.pdb
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\obj\Debug\netcoreapp3.1\HelloPlugin.csprojAssemblyReference.cache
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\obj\Debug\netcoreapp3.1\HelloPlugin.csproj.CoreCompileInputs.cache
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\obj\Debug\netcoreapp3.1\HelloPlugin.AssemblyInfoInputs.cache
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\obj\Debug\netcoreapp3.1\HelloPlugin.AssemblyInfo.cs
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\obj\Debug\netcoreapp3.1\HelloPlugin.dll
-D:\Documents\cours_UQAC\Patron et modeles\Plugins\HelloPlugin\obj\Debug\netcoreapp3.1\HelloPlugin.pdb
