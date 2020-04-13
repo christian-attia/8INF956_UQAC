@@ -13,48 +13,26 @@ namespace AppWithPlugin
         {
             try
             {
-                if (args.Length == 1 && args[0] == "/d")
-                {
-                    Console.WriteLine("Waiting for any key..");
-                    Console.ReadLine();
-                }
-
                 string[] pluginPaths = new string[]
                     {
-                        @"HelloPlugin\bin\Debug\netcoreapp3.1\HelloPlugin.dll"
+                        @"UsersJsonPlugin\bin\Debug\netcoreapp3.1\UsersJsonPlugin.dll"
                     };
 
-                IEnumerable<ICommand> commands = pluginPaths.SelectMany(pluginPath =>
+                IEnumerable<IUserPlugin> commands = pluginPaths.SelectMany(pluginPath =>
                 {
                     Assembly pluginAssembly = LoadPlugin(pluginPath);
                     return CreateCommands(pluginAssembly);
                 }).ToList();
 
-                if (args.Length == 0)
+               
+                foreach (IUserPlugin command in commands)
                 {
-                    Console.WriteLine("Commands: ");
-                    foreach (ICommand command in commands)
-                    {
-                        Console.WriteLine($"{command.Name}\t - {command.Description}");
+                    Console.WriteLine($"Plugin: {command.Name}");
+                    List<User> users = command.LoadUsers();
+                    foreach (User user in users) {
+                        Console.WriteLine($"User #1 : {user.first_name}");
                     }
-                }
-                else
-                {
-                    foreach (string commandName in args)
-                    {
-                        Console.WriteLine($"-- {commandName} --");
-
-                        ICommand command = commands.FirstOrDefault(c => c.Name == commandName);
-                        if (command == null)
-                        {
-                            Console.WriteLine("No such command is known.");
-                            return;
-                        }
-
-                        command.Execute();
-
-                        Console.WriteLine();
-                    }
+                    Console.WriteLine();
                 }
 
             }
@@ -79,15 +57,15 @@ namespace AppWithPlugin
             return loadContext.LoadFromAssemblyName(new AssemblyName(Path.GetFileNameWithoutExtension(pluginLocation)));
         }
 
-        static IEnumerable<ICommand> CreateCommands(Assembly assembly)
+        static IEnumerable<IUserPlugin> CreateCommands(Assembly assembly)
         {
             int count = 0;
 
             foreach (Type type in assembly.GetTypes())
             {
-                if (typeof(ICommand).IsAssignableFrom(type))
+                if (typeof(IUserPlugin).IsAssignableFrom(type))
                 {
-                    ICommand result = Activator.CreateInstance(type) as ICommand;
+                    IUserPlugin result = Activator.CreateInstance(type) as IUserPlugin;
                     if (result != null)
                     {
                         count++;
