@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWithPlugin", "AppWithPlu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{5B73241F-0739-44B5-9A0A-B6CC8ABF0249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloPlugin", "UsersJsonPlugin\UsersJsonPlugin.csproj", "{913D2991-49A2-44D2-B3AE-759C0136813E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloPlugin", "plugins\UsersJsonPlugin\UsersJsonPlugin.csproj", "{913D2991-49A2-44D2-B3AE-759C0136813E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

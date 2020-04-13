@@ -13,10 +13,14 @@ namespace AppWithPlugin
         {
             try
             {
-                string[] pluginPaths = new string[]
-                    {
-                        @"UsersJsonPlugin\bin\Debug\netcoreapp3.1\UsersJsonPlugin.dll"
-                    };
+                
+                string[] pluginDirs = Directory.GetDirectories("../plugins");
+                List<string> pluginPaths = new List<string>();
+                foreach (string pluginDir in pluginDirs) {
+                    string pluginName = new DirectoryInfo(pluginDir).Name;
+                    string dllPath = Path.Join(pluginDir, @"\bin\Debug\netcoreapp3.1", $"{pluginName}.dll");
+                    pluginPaths.Add(dllPath);
+                }
 
                 IEnumerable<IUserPlugin> commands = pluginPaths.SelectMany(pluginPath =>
                 {
@@ -28,13 +32,13 @@ namespace AppWithPlugin
                 foreach (IUserPlugin command in commands)
                 {
                     Console.WriteLine($"Plugin: {command.Name}");
-                    List<User> users = command.LoadUsers();
-                    foreach (User user in users) {
-                        Console.WriteLine($"User #1 : {user.first_name}");
+                    Console.WriteLine("\tFirst 10 users");
+                    IEnumerable<User> users = command.LoadUsers();
+                    foreach (User user in users.Take(10)) {
+                        Console.WriteLine(user.ToString());
                     }
                     Console.WriteLine();
                 }
-
             }
             catch (Exception ex)
             {
@@ -43,13 +47,11 @@ namespace AppWithPlugin
         }
         static Assembly LoadPlugin(string relativePath)
         {
-            // Navigate up to the solution root
             string root = Path.GetFullPath(Path.Combine(
-                Path.GetDirectoryName(
                     Path.GetDirectoryName(
                         Path.GetDirectoryName(
                             Path.GetDirectoryName(
-                                Path.GetDirectoryName(typeof(Program).Assembly.Location)))))));
+                                Path.GetDirectoryName(typeof(Program).Assembly.Location))))));
 
             string pluginLocation = Path.GetFullPath(Path.Combine(root, relativePath.Replace('\\', Path.DirectorySeparatorChar)));
             Console.WriteLine($"Loading commands from: {pluginLocation}");

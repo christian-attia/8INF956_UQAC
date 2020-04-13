@@ -8,6 +8,6 @@ namespace PluginBase
         string Name { get; }
         string Description { get; }
 
-        List<User> LoadUsers();
+        IEnumerable<User> LoadUsers();
     }
 }
