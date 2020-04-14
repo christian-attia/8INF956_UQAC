@@ -33,7 +33,7 @@ dotnet build Plugins.sln
 ```
 
 ### Run
-Mettez-vous à la racine du projet :
+Mettez-vous à la racine de la solution :
 ```
 dotnet build Plugins.sln
 dotnet run --project AppWithPlugin/AppWithPlugin.csproj
