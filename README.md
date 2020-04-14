@@ -70,3 +70,27 @@ public class UsersMemoryLoader : IUsersPlugin
 ```
 
 Maintenant, suivez les instructions du début pour *build* et *run* la solution. Au lancement de l'application, le plugin sera automatiquement chargé et exécuté par le programme (pour chaque plugin un sample des utilisateurs chargés sera affiché).
+
+Résultat: 
+```
+Plugin: UsersInMemoryPlugin
+        Sample of the users loaded:
+John Doe - john@doe.com
+Terry Alvarez - terry@alvarez.com
+James Collin - james@collin.com
+
+Plugin: UserJSONLoader
+        Sample of the users loaded:
+Data source: ./users/users_default.json
+Data source: ./users/users_mock.json
+Hube Worland - hworland0@t.co
+Prinz Roelofs - proelofs1@behance.net
+Sascha Looney - slooney2@sbwire.com
+Haslett Beardsley - hbeardsley3@netvibes.com
+Wilfrid Stanislaw - wstanislaw4@privacy.gov.au
+Eddy Brombell - ebrombell5@1und1.de
+Aloysia Feron - aferon6@illinois.edu
+Lennie Dzeniskevich - ldzeniskevich7@vkontakte.ru
+Marv Hinze - mhinze8@guardian.co.uk
+Dionysus Jelkes - djelkes9@hhs.gov
+```

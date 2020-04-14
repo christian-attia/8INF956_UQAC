@@ -19,7 +19,7 @@ namespace UsersJsonPlugin
             var settings = new JsonSerializerSettings();
             settings.ContractResolver = new UserJsonResolver();
             foreach (string file in jsonFiles) {
-                Console.WriteLine(file);
+                Console.WriteLine($"Data source: {file}");
                 List<User> tmp = JsonConvert.DeserializeObject<List<User>>(File.ReadAllText(@file), settings);
                 users.AddRange(tmp);
             }
