@@ -33,13 +33,11 @@ dotnet build Plugins.sln
 ```
 
 ### Run
-Mettez-vous à la racine de la solution :
+**À la racine de la solution:**
 ```
-dotnet build Plugins.sln
 dotnet run --project AppWithPlugin/AppWithPlugin.csproj
 ```
-
-Sinon, si vous utilisez vscode, le fichier `launch.json` est déjà correctement configuré.
+Sinon, si vous utilisez vscode, le fichier `launch.json` est déjà correctement configuré, plus qu'à lancer avec F5.
 
 
 ### Ajout d'un nouveau plugin
