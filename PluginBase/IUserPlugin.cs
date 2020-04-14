@@ -3,7 +3,7 @@
 
 namespace PluginBase
 {
-    public interface IUserPlugin
+    public interface IUsersPlugin
     {
         string Name { get; }
         string Description { get; }

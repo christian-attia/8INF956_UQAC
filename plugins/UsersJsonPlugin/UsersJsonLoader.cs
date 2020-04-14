@@ -4,9 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
+
 namespace UsersJsonPlugin
 {
-    public class UsersJsonLoader : IUserPlugin
+    public class UsersJsonLoader : IUsersPlugin
     {
         public string Name { get => "UserJSONLoader"; }
         public string Description { get => "Load JSON users"; }
@@ -14,7 +15,7 @@ namespace UsersJsonPlugin
         public IEnumerable<User> LoadUsers()
         {   
             List<User> users = new List<User>();
-            string[] jsonFiles = Directory.GetFiles("../users/", "*.json");
+            string[] jsonFiles = Directory.GetFiles("./users/", "*.json");
             var settings = new JsonSerializerSettings();
             settings.ContractResolver = new UserJsonResolver();
             foreach (string file in jsonFiles) {

@@ -2,6 +2,8 @@
 using System.Reflection;
 using System.Runtime.Loader;
 
+
+// Source: https://docs.microsoft.com/en-us/dotnet/core/tutorials/creating-app-with-plugin-support
 namespace AppWithPlugin
 {
     class PluginLoadContext : AssemblyLoadContext
